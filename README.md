@@ -1,16 +1,18 @@
-## Installing
-
-Library supports both browser environment without package managers and Node/Webpack apps with package manager that can
-handle `require` or `import` module expressions.
-For webpack and npm based apps:
+## Installing and running
+Clone repository:
 
 ```
-npm i @green-api/whatsapp-api-client
+git clone 
 ```
 
-For vanilla html-js website modify index.html:
+Install dependensies:
 
-```html
+```
+npm install 
+```
 
-<script src="https://unpkg.com/@green-api/whatsapp-api-client/lib/whatsapp-api-client.min.js"></script>
+Run project:
+
+```
+npm run dev
 ```
