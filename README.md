@@ -1,5 +1,4 @@
 ## Installing and running
-Clone repository
 Install dependensies:
 
 ```
