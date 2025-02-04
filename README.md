@@ -1,10 +1,5 @@
 ## Installing and running
-Clone repository:
-
-```
-git clone 
-```
-
+Clone repository
 Install dependensies:
 
 ```
