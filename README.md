@@ -1,8 +1,16 @@
-# React + Vite
+## Installing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Library supports both browser environment without package managers and Node/Webpack apps with package manager that can
+handle `require` or `import` module expressions.
+For webpack and npm based apps:
 
-Currently, two official plugins are available:
+```
+npm i @green-api/whatsapp-api-client
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+For vanilla html-js website modify index.html:
+
+```html
+
+<script src="https://unpkg.com/@green-api/whatsapp-api-client/lib/whatsapp-api-client.min.js"></script>
+```
